@@ -37,29 +37,29 @@ Or via API **(see SensorData_Request.ipynb)**
 All NaN or null values are represented by -9999 or -9999.0 (because the data is exported and stored in **.csv** format). All measured data contained in the S* folders (NOT THE DUMP FOLDERS) have the following format/units:
 
 |      **Quantity**      |           **Format Measurement Unit**           |
-|:----------------------:|:-----------------------------------------------:|
-| timestamp | YYYY-MM-DD HHMMSS (No timezone data included) |
-| wind_speed | m/s |
-| wind_direction | degrees (0N clockwise) |
-| temperature | &deg;C   |
-| pressure | hPa |
-| relative_humidity | % |
-| rain | % |
-| no | $µg/m^{3}$ |
-| no2 | $µg/m^{3}$ |
-| pm1 | $µg/m^{3}$ |
-| pm25 | $µg/m^{3}$ |
-| pm10 | $µg/m^{3}$ |
-| o3 | $µg/m^{3}$ |
+|------------------------|-------------------------------------------------|
+| timestamp              | YYYY-MM-DD HHMMSS (No timezone data included)   |
+| wind_speed             | m/s                                             |
+| wind_direction         | degrees (0N clockwise)                          |
+| temperature            | &deg;C                                          |
+| pressure               | hPa                                             |
+| relative_humidity      | %                                               |
+| rain                   | %                                               |
+| no                     | $µg/m^{3}$                                      |
+| no2                    | $µg/m^{3}$                                      |
+| pm1                    | $µg/m^{3}$                                      |
+| pm25                   | $µg/m^{3}$                                      |
+| pm10                   | $µg/m^{3}$                                      |
+| o3                     | $µg/m^{3}$                                      |
 
 # ATTENTION!
 
 $NO$, $NO_{2}$ and $O_{3}$ in **S0** dump folder are initially given in **ppb**. To convert to **$µg/m^{3}$** use the following formulas:
 
-|        **Pollutant**        |   **Conversion Formula**  |
-|:---------------------------:|:-------------------------:|
-| Carbon Monoxide (CO) | 1  ppb  = 1.15 $µg/m^{3}$  |
-| Nitrogen Monoxide (NO) | 1  ppb  = 1.23 $µg/m^{3}$  |
+|        **Pollutant**        |   **Conversion Formula**   |
+|-----------------------------|----------------------------|
+| Carbon Monoxide (CO)        | 1  ppb  = 1.15 $µg/m^{3}$  |
+| Nitrogen Monoxide (NO)      | 1  ppb  = 1.23 $µg/m^{3}$  |
 | Nitrogen Dioxide ($NO^{2}$) | 1  ppb  = 1.88 $µg/m^{3}$  |
-| Ozone ($O^{3}$) | 1  ppb  = 1.96 $µg/m^{3}$  |
-| Sulphur Dioxide ($SO^{2}$) | 1  ppb  = 2.62 $µg/m^{3}$  |
+| Ozone ($O^{3}$)             | 1  ppb  = 1.96 $µg/m^{3}$  |
+| Sulphur Dioxide ($SO^{2}$)  | 1  ppb  = 2.62 $µg/m^{3}$  |
