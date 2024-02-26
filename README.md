@@ -38,7 +38,7 @@ All NaN or null values are represented by -9999 or -9999.0 (because the data is 
 
 |      **Quantity**      |           **Format Measurement Unit**           |
 |------------------------|-------------------------------------------------|
-| timestamp              | YYYY-MM-DD HHMMSS (No timezone data included)   |
+| timestamp              | YYYY-MM-DD HHMMSS                               |
 | wind_speed             | m/s                                             |
 | wind_direction         | degrees (0N clockwise)                          |
 | temperature            | &deg;C                                          |
