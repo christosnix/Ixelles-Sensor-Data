@@ -13,7 +13,7 @@ The SensorData_Request.ipynb file needs the following packages:
 
 
 ## Data sources
-The included data have been acquired from the folowing sources:\
+The included data have been acquired from the folowing sources:
 
 **S_Airport (Brussels Airport weather data)**\
 Source: [Iowa State University - Environmental Mesonet](https://mesonet.agron.iastate.edu/request/download.phtml?network=BE__ASOS)\
