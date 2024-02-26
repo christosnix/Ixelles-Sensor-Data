@@ -1,7 +1,6 @@
 # Ixelles Sensor Data
 
 ![Ixelles study case map](./study_case_map.svg)
-<img src="./study_case_map.svg">
 
 
 Sensor data for local meteorological and concentrations of pollutant agents data repository for the Ixelles domain (Area between ULB-Solbosch and VUB-Etterbeek Campuses). Area of interest ~0.75 $km^{2}$ .
