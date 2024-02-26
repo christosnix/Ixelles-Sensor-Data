@@ -36,7 +36,7 @@ Or via API **(see SensorData_Request.ipynb)**
 
 All NaN or null values are represented by -9999 or -9999.0 (because the data is exported and stored in **.csv** format). All measured data contained in the S* folders (NOT THE DUMP FOLDERS) have the following format/units:
 
-|      **Quantity**      |           **Format/Measurement Unit**           |
+|      **Quantity**      |           **Format/Measurement Units**          |
 |------------------------|-------------------------------------------------|
 | timestamp              | YYYY-MM-DD HHMMSS                               |
 | wind_speed             | m/s                                             |
