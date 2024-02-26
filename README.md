@@ -1,13 +1,9 @@
 # Ixelles Sensor Data
+SPICECO project sensor data for local meteorological and concentrations of pollutant agents data for  Ixelles, Brussels (between ULB-Solbosch and VUB-Etterbeek campuses). Area of interest ~0.75 $km^{2}$ .
 
 ![Ixelles study case map](./study_case_map.svg)
 
-
-SPICECO project sensor data for local meteorological and concentrations of pollutant agents data for  Ixelles, Brussels (between ULB-Solbosch and VUB-Etterbeek campuses). Area of interest ~0.75 $km^{2}$ .
-
-
 ## Required packages
-
 The SensorData_Request.ipynb file needs the following packages:
 * time
 * pandas
@@ -17,11 +13,11 @@ The SensorData_Request.ipynb file needs the following packages:
 
 
 ## Data sources
+The included data have been acquired from the folowing sources:\
+
 **S_Airport (Brussels Airport weather data)**\
 Source: [Iowa State University - Environmental Mesonet](https://mesonet.agron.iastate.edu/request/download.phtml?network=BE__ASOS)\
 Location: [50.896186, 4.526046](https://maps.google.com/?q=%3C50.896186%3E,%3C4.526046%3E)
-
-
 
 
 **S_Uccle (Royal Observatory of Belgium - Station Code 41R012)**\
@@ -29,13 +25,9 @@ Source: [Belgian Interregional Environment Agency (IRCEL - CELINE)](https://geo.
 Location: [50.79663595794822, 4.358516997983345](https://maps.google.com/?q=%3C50.79663595794822%3E,%3C4.358516997983345%3E)
 
 
-
-
 **S0 (Reference Station at ULB)**\
 Source: [Airpointer Portal](https://airpointer-2018-00637.recordum.net/) **(manual download)**\
 Location: [50.8126525, 4.382938333](https://maps.google.com/?q=%3C50.8126525%3E,%3C4.382938333%3E)
-
-
 
 
 **S1-11 (Small sensors network in Ixelles)**\
@@ -43,7 +35,7 @@ Source: [MacQ - Noolitic Portal Site](https://qsenseair.macq.eu/login?redirect=/
 Or via API **(see SensorData_Request.ipynb)**
 
 
-
+## Data formats and units
 
 All NaN or null values are represented by -9999 or -9999.0 (because the data is exported and stored in **.csv** format). All measured data contained in the S* folders **(NOT THE DUMP FOLDERS)** have the following format/units:
 
@@ -63,7 +55,7 @@ All NaN or null values are represented by -9999 or -9999.0 (because the data is 
 | pm10                   | $µg/m^{3}$                                      |
 | o3                     | $µg/m^{3}$                                      |
 
-## ATTENTION!
+
 
 $NO$, $NO_{2}$ and $O_{3}$ in **S0** dump folder are initially given in **ppb**. To convert to **$µg/m^{3}$** use the following formulas:
 
