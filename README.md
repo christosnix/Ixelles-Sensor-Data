@@ -5,7 +5,18 @@
 
 SPICECO project sensor data for local meteorological and concentrations of pollutant agents data for  Ixelles, Brussels (between ULB-Solbosch and VUB-Etterbeek campuses). Area of interest ~0.75 $km^{2}$ .
 
-# Data sources
+
+## Required packages
+
+The SensorData_Request.ipynb file needs the following packages:
+* time
+* pandas
+* datetime
+* requests
+* datetime
+
+
+## Data sources
 **S_Airport (Brussels Airport weather data)**\
 Source: [Iowa State University - Environmental Mesonet](https://mesonet.agron.iastate.edu/request/download.phtml?network=BE__ASOS)\
 Location: [50.896186, 4.526046](https://maps.google.com/?q=%3C50.896186%3E,%3C4.526046%3E)
@@ -52,7 +63,7 @@ All NaN or null values are represented by -9999 or -9999.0 (because the data is 
 | pm10                   | $µg/m^{3}$                                      |
 | o3                     | $µg/m^{3}$                                      |
 
-# ATTENTION!
+## ATTENTION!
 
 $NO$, $NO_{2}$ and $O_{3}$ in **S0** dump folder are initially given in **ppb**. To convert to **$µg/m^{3}$** use the following formulas:
 
