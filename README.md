@@ -49,8 +49,8 @@ All NaN or null values are represented by -9999 or -9999.0 (because the data is 
 | no2 | $µg/m^{3}$ |
 | pm1 | $µg/m^{3}$ |
 | pm25 | $µg/m^{3}$ |
-| pm10  $µg/m^{3}$ |
-| o3  $µg/m^{3}$ |
+| pm10 | $µg/m^{3}$ |
+| o3 | $µg/m^{3}$ |
 
 # ATTENTION!
 
