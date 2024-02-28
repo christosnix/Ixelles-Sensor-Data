@@ -63,8 +63,8 @@ $NO$, $NO_{2}$ and $O_{3}$ in **S0** dump folder are initially given in **ppb**.
 |-----------------------------|----------------------------|
 | Carbon Monoxide (CO)        | 1  ppb  = 1.15 $µg/m^{3}$  |
 | Nitrogen Monoxide (NO)      | 1  ppb  = 1.23 $µg/m^{3}$  |
-| Nitrogen Dioxide ($NO^{2}$) | 1  ppb  = 1.88 $µg/m^{3}$  |
-| Ozone ($O^{3}$)             | 1  ppb  = 1.96 $µg/m^{3}$  |
-| Sulphur Dioxide ($SO^{2}$)  | 1  ppb  = 2.62 $µg/m^{3}$  |
+| Nitrogen Dioxide ($NO_{2}$) | 1  ppb  = 1.88 $µg/m^{3}$  |
+| Ozone ($O_^_{3}$)             | 1  ppb  = 1.96 $µg/m^{3}$  |
+| Sulphur Dioxide ($SO_^_{2}$)  | 1  ppb  = 2.62 $µg/m^{3}$  |
 
 Source: [Breeze Technologies](https://www.breeze-technologies.de/blog/air-pollution-how-to-convert-between-mgm3-%C2%B5gm3-ppm-ppb/)
